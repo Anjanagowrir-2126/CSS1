@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100px;
+            overflow:auto;
+            background-color: rgb(232, 178, 99);
+        }
+        .a1
+        {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 70px;
+            background-color: rgb(163, 118, 67);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 2px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .prof { 
+            position:relative; 
+            margin: 110px auto 40px; 
+            width:80%;
+            min-height: 200px;
+            background-color: beige; 
+            padding:30px; 
+            border radius: 10px; 
+            overflow:auto;
+}
+        img{
+            float: left;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 2px solid black;
+        }
+        .profcontent{
+            text-align: center;
+            padding-right: 250px;
+        }
+        .profcontent h2{
+            margin-top: 20px;
+            color:brown;
+        }
+        .profcontent h3{
+            color:rgb(127, 17, 17);
+        }
+        .profcontent p{
+            line-height: 1.5;
+            margin-right: 10px;
+            
+        }
+        .divider{ 
+            position:absolute; 
+            right:230px; 
+            top:30px; 
+            height:150px; 
+            border-left:3px 
+            solid brown;
+
+}
+
+        .contactbox {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 180px;
+        padding: 20px;
+        background: #e8f1fb;
+        border-radius: 10px;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .contactbox h2 {
+        font-size: 20px;
+        color: #1f4e79;
+    }
+
+    .contactbox p {
+        margin: 10px 0;
+        
+    }
+
+</style>
+</head>
+
+<body>
+
+<header class="a1">
+    Company Contact Card
+</header>
+
+<section class="prof">
+
+    <img 
+        
+        src="prof.jpg"
+        alt="Employee Profile">
+
+    <div class="profcontent">
+        <h1>Alex Johnson</h1>
+        <h3>Senior Software Engineer</h3>
+        <p>
+            Alex is a dedicated software engineer specializing in web development,
+            system design.
+        </p>
+
+          
+    </div>
+      <div class="divider"></div>
+
+    <div class="contactbox">
+
+    
+        <h2>Contact Info</h2>
+        <p>📞 +1 555 123 4567</p>
+        <p>✉ alex@example.com</p>
+
+</section>
+</body>
+</html>
