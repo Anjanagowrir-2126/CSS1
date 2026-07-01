@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .blog{
+        width: 700px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+    }
+
+    h1{
+        color: darkblue;
+        margin-bottom: 5px;
+    }
+
+    .author{
+        color: gray;
+        font-style: italic;
+    }
+    .blog p::first-line{
+        font-weight: bold;
+    }
+    .blog p::first-letter{
+        font-size: 32px;
+        color: crimson;
+    }
+    blockquote{
+        background: #eeeeee;
+        padding: 12px;
+        border-left: 5px solid steelblue;
+        font-style: italic;
+        margin: 20px 0;
+    }
+    blockquote::before{
+        content: "“";
+        font-size: 30px;
+        color: darkblue;
+    }
+    a:link{
+        color: blue;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: purple;
+    }
+
+    a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    .headings h4{
+        display: inline-block;
+        margin-right: 30px;
+    }
+    .headings h4 + h4{
+        color: green;
+    }
+</style>
+</head>
+<body>
+    <div class="blog">
+
+    <h1>The Impact of Technology</h1>
+
+    <p class="author">By Anjana Gowri</p>
+
+    <p>
+        Technology has transformed the way people communicate, learn, and work.
+        It has made information easily accessible and improved productivity in
+        almost every field. At the same time, responsible use of technology is
+        important to reduce distractions and protect privacy.
+    </p>
+
+    <blockquote>
+        Technology is best when it brings people together.
+    </blockquote>
+
+    <p>
+        Read more:
+        <a href="https://en.wikipedia.org/wiki/Technology">Technology</a> |
+        <a href="https://en.wikipedia.org/wiki/Information_technology">Information Technology</a>
+    </p>
+
+    <div class="headings">
+        <h4>Latest Posts</h4>
+        <h4>Popular Posts</h4>
+    </div>
+</body>
+</html>
