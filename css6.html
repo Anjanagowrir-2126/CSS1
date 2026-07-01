@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+    }
+    .a1{
+        border: 5px solid black;
+        padding: 20px;
+        width: 500px;
+        margin: auto;
+        height: auto;
+        text-align: left;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .shoes {
+        border: 2px solid black;
+        display: block;
+        width: 100%;
+        margin-left: 2px;
+        margin-right: 0px; 
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    button{
+        background-color: blue;
+        color: white;
+        font-size: 12px;
+    }
+    button:hover{
+        background-color: darkblue;
+    }
+    @media (max-width:600px) {
+        .a1{
+            text-align: center;
+        }
+        h2{
+            font-size: 18px;
+        }
+        button{
+            font-size: 10px;
+            background-color: green;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    @media (orientation:landscape){
+    .a1{
+        background-color:lightblue;
+    }
+}
+</style>
+<body>
+    <div class="a1">
+    <img class="shoes" src="shoes.jpeg.jpeg" alt="Casual Sneakers Shoes" width="500" height="300">
+    <h2>Casual Sneakers Shoes</h2>
+    <p>Comfortable and stylish sneakers, perfect for everyday wear with a durable and lightweight design.</p>
+    <button value="Buy Now">Buy Now</button>
+</div>
+</body>
+</html>
